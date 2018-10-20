@@ -1,0 +1,21 @@
+﻿/* for the form */
+label{
+    width:150px;
+    display:inline-block;
+}
+/* for the table */
+table{
+    width: 100%;
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+td {
+    padding: 5px;
+    border: 1px solid black;
+}
+th {
+    padding: 5px;
+    border: 1px solid black;
+}
+

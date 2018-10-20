@@ -1,0 +1,222 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Form and table</title>
+        <link rel="stylesheet" type="text/css" href="style.css" >
+    </head>
+<body>
+    <h1>Form</h1>
+    <form action="#" name="firstForm" method="post">
+
+        <fieldset>
+            <legend>Basic info</legend>
+            <p>
+                <label for="name">ID</label>
+                <input id="name" type="text" value="325">
+            </p>
+            <p>
+                <label for="firstName">First Name</label>
+                <input id="firstName" type="text">
+            </p>
+            <p>
+                <label for="lastName">Last Name</label>
+                <input id="lastName" type="text">
+            </p>
+            <p>
+                <label for="password">Password</label>
+                <input id="password" type="password" value="123456789">
+            </p>
+            <p>
+                <label for="phone">Phone</label>
+                <input id="phone" type="tel" placeholder="380">
+            </p>
+            <p>
+                <label for="email">Email</label>
+                <input id="email" type="password" placeholder="myemail@gmail.com">
+            </p>
+            <p>
+                <input type="checkbox" name="a"> Keep my email adress private <br>
+                We`ll remove your public profile email and use<br>
+                1978331+username@users.noreply.localhost
+            </p>
+            <p>
+                <label for="calendar">DOB</label>
+                <input id="calendar" type="date">
+            </p>
+            <p>
+                <label for="blogUrl">Blog url</label>
+                <input id="blogUrl" type="url" placeholder="http://">
+            </p>
+            <p>
+                <label for="about">About me</label>
+                <textarea name="text" id="about"></textarea>
+            </p>
+            <p>
+                <label for="profile">Profile picture</label>
+                <input type="file" id="profile" name="photo">
+            </p>
+        </fieldset>
+    </form>
+
+    <form action="#" name="secondForm" method="post">
+        <fieldset>
+            <legend>Professional info</legend>
+            <p>Desire to study
+            <input type="range" min="0" max="100" step="1" value="50">
+            </p>
+            <p>Experience
+                <select name="select" size="1" multiple>
+                <option selected value="s1">1</option>
+                <option value="s2">2</option>
+                <option value="s3">3</option>
+                <option value="s4">4</option>
+                </select>
+                years
+            </p>
+            <p>Development Experience: <br><br>
+                <input type="radio" id="learning" name="interest" value="learn-p">
+                <label for="learning">Learning to Program</label>
+            </p>
+            <p>
+                <input type="radio" id="junior" name="interest" checked value="junior-d">
+                <label for="junior">Junior Developer</label>
+            </p>
+            <p>
+                <input type="radio" id="mid" name="interest" value="mid-l">
+                <label for="mid">Mid-Level Developer</label>
+            </p>
+            <p>
+                <input type="radio" id="senior" name="interest" value="senior-d">
+                <label for="senior">Senior Developer</label>
+            </p>
+            <p>Country
+                <select name="select">
+                    <option disabled selected>-Choose your country-</option>
+                    <option value="ua">Ukraine</option>
+                    <option value="sp">Spain</option>
+                    <option value="usa">USA</option>
+                    <option value="pl">Poland</option>
+                </select>
+            </p>
+            <p>Skills:
+            </p>
+            <p>
+                <input type="checkbox" name="a" value="html" checked>HTML
+            </p>
+            <p>
+                <input type="checkbox" name="a" value="css">CSS
+            </p>
+            <p>
+                <input type="checkbox" name="a" value="js">JS
+            </p>
+            <p>
+                <input type="checkbox" name="a" value="r">R
+            </p>
+            <p>
+                <input type="checkbox" name="a" value="scala">Scala
+            </p>
+            <p>
+                <input type="checkbox" name="a" value="haskell">Haskell
+            </p>
+            <p>
+                <input type="hidden" id="author" name="author" value="Lesia">
+            </p>
+            <p>
+                <input type="reset" value="< Cancel">
+                <input type="submit" value="Submit">
+            </p>
+        </fieldset>
+    </form>
+
+    <h2>Table</h2>
+        <table>
+            <tr>
+                <td rowspan="2"></td>
+                <th>I-А</th>
+                <th>I-Б</th>
+                <th colspan="2">I-В</th>
+                <th>I-І</th>
+                <th>IІ-A</th>
+                <th>IІ-Б</th>
+                <th colspan="2">IІ-В</th>
+                <th colspan="2">IІІ-А</th>
+                <th colspan="2">IІІ-В</th>
+                <th>IІІ-І</th>
+                <td rowspan="2"></td>
+
+             </tr>
+            <tr>
+                <td colspan="2">Підгрупа 1</td>
+                <td>Підгрупа I</td>
+                <td>Підгрупа II</td>
+                <td>Підгрупа II</td>
+                <td colspan="2">Підгрупа I</td>
+                <td>Підгрупа I</td>
+                <td>Підгрупа II</td>
+                <td>Підгрупа I</td>
+                <td>Підгрупа II</td>
+                <td>Підгрупа I</td>
+                <td>Підгрупа II</td>
+                <td>Підгрупа II</td>
+            </tr>
+            <tr>
+                <th>1</th>
+                <td colspan="5">Фізичне виховання</td>
+                <td colspan="2">Вища математика для фізиків доц. Корнієнко С.В. ауд. 258</td>
+                <td colspan="2">Прикладна механіка та основи конструювання доц.Луценко Г.В. ауд. 279</td>
+                <td colspan="2">Ділова іноземна мова ст.викл. Зінченко А.В. ауд. 267</td>
+                <td colspan="3">Теорія ймовірностей та випадкові процеси доц. Ральченко С.А. ауд. 136</td>
+                <th>1</th>
+            </tr>
+            <tr>
+                <th>2</th>
+                <td colspan="2">Математичний аналіз доц. Лила Д.М. ауд. 241</td>
+                <td></td>
+                <td>Інженерна та комп'ютерна графіка ст.викл. Власенко В.М. ауд. 131</td>
+                <td>Дискретна математика доц. Атамась В.В. ауд. 282</td>
+                <td colspan="2">Педагогіка доц. Лещенко І.Т. ауд. 258</td>
+                <td>Іноземна мова викл. Зінченко А.В. ауд. 242</td>
+                <td></td>
+                <td colspan="2">Чисельні методи у фізиці доц. Сторожук Н.В. ауд. 268</td>
+                <td></td>
+                <td></td>
+                <td>Вища математика доц. Босовський М.В. ауд. 243</td>
+                <th>2</th>
+            </tr>
+            <tr>
+                <th>3</th>
+                <td colspan="2">Математичний аналіз доц. Лила Д.М. ауд. 241</td>
+                <td>Інженерна та комп'ютерна графіка ст.викл. Власенко В.М. ауд. 131</td>
+                <td></td>
+                <td>Дискретна математика доц. Атамась В.В. ауд. 282</td>
+                <td colspan="2">Педагогіка доц. Лещенко І.Т. ауд. 258</td>
+                <td></td>
+                <td>Іноземна мова викл. Зінченко А.В. ауд. 242</td>
+                <td colspan="2">Чисельні методи у фізиці доц. Сторожук Н.В. ауд. 268</td>
+                <td></td>
+                <td></td>
+                <td>Вища математика доц. Босовський М.В. ауд. 243</td>
+                <th>3</th>
+            </tr>
+            <tr>
+                <th>4</th>
+                <td colspan="2"></td>
+                <td colspan="2">Фізика ст.викл. Власенко В.М. ауд. 279</td>
+                <td></td>
+                <td colspan="2"></td>
+                <td></td>
+                <td></td>
+                <td colspan="2"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <th>4</th>
+            </tr>
+            <tr>
+                <td colspan="16">Заступник директора з навчально-методичної роботи, ст. викладач ____________________
+                    В. М. Власенко</td>
+            </tr>
+        </table>
+</body>
+</html>
