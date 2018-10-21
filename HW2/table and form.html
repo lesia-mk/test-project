@@ -7,66 +7,62 @@
     </head>
 <body>
     <h1>Form</h1>
-    <form action="#" name="firstForm" method="post">
-
+    <form action="https://postman-echo.com/post" method="post">
         <fieldset>
             <legend>Basic info</legend>
             <p>
-                <label for="name">ID</label>
-                <input id="name" type="text" value="325">
+                <label for="id">ID</label>
+                <input id="id" name="id"type="text" value="325">
             </p>
             <p>
                 <label for="firstName">First Name</label>
-                <input id="firstName" type="text">
+                <input id="firstName" name="firstName" type="text">
             </p>
             <p>
                 <label for="lastName">Last Name</label>
-                <input id="lastName" type="text">
+                <input id="lastName" name="lastName" type="text">
             </p>
             <p>
                 <label for="password">Password</label>
-                <input id="password" type="password" value="123456789">
+                <input id="password" name="password" type="password" value="123456789">
             </p>
             <p>
                 <label for="phone">Phone</label>
-                <input id="phone" type="tel" placeholder="380">
+                <input id="phone" name="phone" type="tel" placeholder="380">
             </p>
             <p>
                 <label for="email">Email</label>
-                <input id="email" type="password" placeholder="myemail@gmail.com">
+                <input id="email" name="email" type="email" placeholder="myemail@gmail.com">
             </p>
             <p>
-                <input type="checkbox" name="a"> Keep my email adress private <br>
+                <input type="checkbox" name="private"> Keep my email adress private <br>
                 We`ll remove your public profile email and use<br>
                 1978331+username@users.noreply.localhost
             </p>
             <p>
                 <label for="calendar">DOB</label>
-                <input id="calendar" type="date">
+                <input id="calendar" name="calendar" type="date">
             </p>
             <p>
                 <label for="blogUrl">Blog url</label>
-                <input id="blogUrl" type="url" placeholder="http://">
+                <input id="blogUrl" name="blogUrl" type="url" placeholder="http://">
             </p>
             <p>
                 <label for="about">About me</label>
-                <textarea name="text" id="about"></textarea>
+                <textarea name="aboutMe" id="about"></textarea>
             </p>
             <p>
                 <label for="profile">Profile picture</label>
-                <input type="file" id="profile" name="photo">
+                <input type="file" id="profile" name="profile">
             </p>
         </fieldset>
-    </form>
-
-    <form action="#" name="secondForm" method="post">
         <fieldset>
             <legend>Professional info</legend>
             <p>Desire to study
             <input type="range" min="0" max="100" step="1" value="50">
             </p>
             <p>Experience
-                <select name="select" size="1" multiple>
+                <select name="expirience" size="1" multiple>
                 <option selected value="s1">1</option>
                 <option value="s2">2</option>
                 <option value="s3">3</option>
@@ -75,23 +71,23 @@
                 years
             </p>
             <p>Development Experience: <br><br>
-                <input type="radio" id="learning" name="interest" value="learn-p">
+                <input type="radio" id="learning" name="developmentExp" value="learn-p">
                 <label for="learning">Learning to Program</label>
             </p>
             <p>
-                <input type="radio" id="junior" name="interest" checked value="junior-d">
+                <input type="radio" id="junior" name="developmentExp" checked value="junior-d">
                 <label for="junior">Junior Developer</label>
             </p>
             <p>
-                <input type="radio" id="mid" name="interest" value="mid-l">
+                <input type="radio" id="mid" name="developmentExp" value="mid-l">
                 <label for="mid">Mid-Level Developer</label>
             </p>
             <p>
-                <input type="radio" id="senior" name="interest" value="senior-d">
+                <input type="radio" id="senior" name="developmentExp" value="senior-d">
                 <label for="senior">Senior Developer</label>
             </p>
             <p>Country
-                <select name="select">
+                <select name="country">
                     <option disabled selected>-Choose your country-</option>
                     <option value="ua">Ukraine</option>
                     <option value="sp">Spain</option>
@@ -102,22 +98,22 @@
             <p>Skills:
             </p>
             <p>
-                <input type="checkbox" name="a" value="html" checked>HTML
+                <input type="checkbox" name="skills" value="html" checked>HTML
             </p>
             <p>
-                <input type="checkbox" name="a" value="css">CSS
+                <input type="checkbox" name="skills" value="css">CSS
             </p>
             <p>
-                <input type="checkbox" name="a" value="js">JS
+                <input type="checkbox" name="skills" value="js">JS
             </p>
             <p>
-                <input type="checkbox" name="a" value="r">R
+                <input type="checkbox" name="skills" value="r">R
             </p>
             <p>
-                <input type="checkbox" name="a" value="scala">Scala
+                <input type="checkbox" name="skills" value="scala">Scala
             </p>
             <p>
-                <input type="checkbox" name="a" value="haskell">Haskell
+                <input type="checkbox" name="skills" value="haskell">Haskell
             </p>
             <p>
                 <input type="hidden" id="author" name="author" value="Lesia">
