@@ -1,0 +1,326 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i,900");
+body {
+  width: 2000px;
+  margin: 0 auto;
+  font-family: 'Lato', sans-serif; }
+
+.bgImg {
+  background: url("../../img/backgr.png") no-repeat;
+  height: 950px;
+  width: auto;
+  background-size: cover; }
+
+a {
+  text-decoration: none; }
+
+.topHeader {
+  padding: 41px 199px 0 201px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .topHeader a {
+    color: white; }
+    .topHeader a:hover {
+      text-decoration: line-through; }
+
+.logo {
+  font-size: 49.5px;
+  font-weight: 900; }
+
+.menuTop {
+  font-size: 18px;
+  width: 413px;
+  display: flex;
+  justify-content: space-between; }
+
+.welcome {
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  margin: 135px auto 0;
+  color: white; }
+
+.infoWelcome h2 {
+  font-size: 72px;
+  font-weight: 900;
+  margin-bottom: 43px;
+  color: white; }
+
+.infoWelcome h3 {
+  font-size: 24px;
+  color: white;
+  margin-bottom: 100px; }
+
+.btnDownload {
+  padding: 17px 51px;
+  font-size: 18px;
+  background-color: white;
+  color: red;
+  border-radius: 25px; }
+  .btnDownload:hover {
+    border: 1px solid #808080; }
+
+/**section 1**/
+.firstSect {
+  display: flex;
+  justify-content: flex-start;
+  width: 1200px;
+  margin: 0 auto; }
+
+.phonePages {
+  padding-top: 44px; }
+  .phonePages img {
+    position: relative; }
+
+.messages {
+  left: -100px; }
+
+.conversation {
+  top: 55px;
+  left: -340px; }
+
+.textRed {
+  color: red; }
+
+.easyMess {
+  padding-top: 200px;
+  margin-left: -220px; }
+  .easyMess h4 {
+    font-size: 50px;
+    font-weight: 900;
+    color: black; }
+  .easyMess p {
+    color: #808080;
+    font-size: 18px;
+    line-height: 32px;
+    width: 557px;
+    height: 113px; }
+
+/**section 2**/
+.secondSect {
+  width: 1200px;
+  margin: 0 auto;
+  height: 798px;
+  display: flex;
+  justify-content: flex-start; }
+
+.keep {
+  padding-top: 263px; }
+  .keep h5 {
+    font-size: 50px;
+    font-weight: 900;
+    color: black; }
+  .keep p {
+    color: #808080;
+    font-size: 18px;
+    line-height: 32px;
+    width: 557px;
+    height: 113px; }
+
+.contGroup {
+  padding-top: 44px; }
+  .contGroup img {
+    position: relative; }
+
+.groups {
+  top: 44px;
+  right: -350px; }
+
+.contacts {
+  top: -420px;
+  right: -145px; }
+
+/**section 3**/
+section h6 {
+  padding-top: 95px;
+  border-top: 1px solid #e0e0e0;
+  font-size: 50px;
+  font-weight: 900;
+  color: black;
+  text-align: center; }
+
+.commits {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between; }
+
+.leftCommit-text {
+  width: 370px;
+  height: 210px;
+  border: 1px solid #e0e0e0;
+  margin-top: 25px; }
+  .leftCommit-text blockquote {
+    font-size: 18px;
+    line-height: 32px;
+    font-style: italic;
+    width: 283px;
+    height: 113px;
+    color: #808080; }
+  .leftCommit-text a {
+    display: block;
+    padding: 15px 0 0 40px;
+    color: red;
+    font-size: 18px;
+    font-weight: bold; }
+
+.foto1 img {
+  float: left;
+  margin: 0 19px 0 0;
+  width: 62px;
+  height: 62px;
+  border-radius: 100px; }
+
+.foto1 p {
+  height: 14px;
+  font-size: 18px;
+  color: #808080; }
+
+.centreCommit-text {
+  width: 370px;
+  height: 210px;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0px 30px 60px 0 rgba(54, 54, 54, 0.15); }
+  .centreCommit-text blockquote {
+    font-size: 18px;
+    line-height: 32px;
+    font-style: italic;
+    width: 283px;
+    height: 113px;
+    color: #808080; }
+  .centreCommit-text a {
+    display: block;
+    padding: 15px 0 0 40px;
+    color: red;
+    font-size: 18px;
+    font-weight: bold; }
+
+.foto2 {
+  padding-top: 45px; }
+  .foto2 img {
+    float: left;
+    margin-right: 19px;
+    width: 62px;
+    height: 62px;
+    border-radius: 100px; }
+  .foto2 p {
+    height: 14px;
+    font-size: 18px;
+    color: #808080; }
+
+.foto2Text {
+  margin-top: -17px; }
+
+.rightCommit-text {
+  width: 370px;
+  height: 210px;
+  border: 1px solid #e0e0e0;
+  margin-top: 25px; }
+  .rightCommit-text blockquote {
+    font-size: 18px;
+    line-height: 32px;
+    font-style: italic;
+    width: 283px;
+    height: 113px;
+    color: #808080; }
+  .rightCommit-text a {
+    display: block;
+    padding: 15px 0 0 40px;
+    color: red;
+    font-size: 18px;
+    font-weight: bold; }
+
+.foto3 img {
+  float: left;
+  margin: 0 19px 0 0;
+  width: 62px;
+  height: 62px;
+  border-radius: 100px; }
+
+.foto3 p {
+  height: 14px;
+  font-size: 18px;
+  color: #808080; }
+
+.fourthSect {
+  margin-top: 242px;
+  background-image: linear-gradient(to top, #eb402c, #d90647);
+  height: 517px; }
+
+.fourthSect-content {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 517px; }
+
+.leftColumn, .rightColumn {
+  color: white;
+  text-align: right; }
+  .leftColumn h4, .rightColumn h4 {
+    font-size: 24px;
+    font-weight: 900; }
+  .leftColumn p, .rightColumn p {
+    width: 255px;
+    height: 71px;
+    font-size: 16px;
+    line-height: 28px; }
+
+.rightColumn {
+  text-align: left; }
+
+.centreColumn {
+  position: relative; }
+  .centreColumn .layout1 {
+    position: absolute;
+    top: -345px;
+    left: -210px; }
+  .centreColumn .layout2 {
+    position: absolute;
+    top: -260px;
+    left: -150px; }
+  .centreColumn .layout3 {
+    position: absolute;
+    top: -30px;
+    left: -30px; }
+
+.subscribe {
+  width: 1200px;
+  text-align: center;
+  margin: 0 auto; }
+  .subscribe h5 {
+    font-size: 60px;
+    font-weight: 900;
+    padding-top: 94px; }
+  .subscribe p {
+    color: #808080;
+    font-size: 18px;
+    margin-top: -50px; }
+
+.email {
+  margin: 70px auto 70px;
+  position: relative; }
+
+.inputEmail {
+  width: 571px;
+  height: 50px;
+  border: 1px solid transparent;
+  border-radius: 25px;
+  background-color: #f8f8f8;
+  padding-left: 25px; }
+
+.btnSubs {
+  width: 180px;
+  height: 50px;
+  border-radius: 25px;
+  border: 2px solid transparent;
+  color: white;
+  box-shadow: 0 10px 30px 0 rgba(223, 27, 61, 0.3);
+  background-image: linear-gradient(to top, #eb402c, #d90647);
+  position: absolute;
+  left: 730px; }
+
+.btnSubs:hover {
+  border: 1px solid #808080;
+  cursor: pointer; }
