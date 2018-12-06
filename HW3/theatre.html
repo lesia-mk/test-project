@@ -9,15 +9,12 @@
     c12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 </head>
 <body>
-    <div class="container">
-
         <header>
             <div class="menu">
-                <div class="logo">
-                    <a href="theatre.html"><img src="img/logo.png" alt="logo"></a>
-                </div>
-                    <nav>
-                        <div class="topNav">
+                    <h1 class="logo">
+                        <a href="theatre.html"><img src="img/logo.png" alt="logo" width="180" height="70"></a>
+                    </h1>
+                    <nav class="topNav">
                             <a href="#"class="topNav__link">Головна</a>
                             <a href="#"class="topNav__link">Афіша</a>
                             <a href="#"class="topNav__link">Репертуар</a>
@@ -26,10 +23,9 @@
                             <a href="#"class="topNav__link">Персоналії</a>
                             <a href="#"class="topNav__link">Контакти</a>
                             <a href="#"class="topNav__link">Фестивалі</a>
-                        </div>
                     </nav>
                 <div class="lang">
-                    <select name="language">
+                    <select class="selTop" name="language">
                         <option value="UK">Укр</option>
                         <option value="RU">Рус</option>
                         <option value="EN">Eng</option>
@@ -40,35 +36,38 @@
 
         <div class="headerSlide">
             <img src="img/lady.png" alt="lady">
-            
         </div>
 
         <div class="content">
             <aside class="leftColumn">
                 <ul class="leftColumn__menu">
-                    <li><img class="icon" src="img/icon1.png"><a class="nav-a" href="#">Фотоархів</a></li>
-                    <li><img class="icon" src="img/icon2.png"><a class="nav-a" href="#">Відеоархів</a></li>
-                    <li><img class="icon" src="img/icon3.png"><a class="nav-a" href="#">Піклувальна рада</a></li>
-                    <li><img class="icon" src="img/icon4.png"><a class="nav-a" href="#">Партнери</a></li>
-                    <li><img class="icon" src="img/icon5.png"><a class="nav-a" href="#">Форум</a></li>
+                    <li><img class="icon" src="img/icon1.png"><a class="nav-link" href="#">Фотоархів</a></li>
+                    <li><img class="icon" src="img/icon2.png"><a class="nav-link" href="#">Відеоархів</a></li>
+                    <li><img class="icon" src="img/icon3.png"><a class="nav-link" href="#">Піклувальна рада</a></li>
+                    <li><img class="icon" src="img/icon4.png"><a class="nav-link" href="#">Партнери</a></li>
+                    <li><img class="icon" src="img/icon5.png"><a class="nav-link" href="#">Форум</a></li>
                 </ul>
             </aside>
 
             <main class="mainColumn">
                 <h2>Новини</h2>
                 <article>
-                    <img class="baletPhoto" src="img/balet.png" alt="balet">
+                    <img class="baletPhoto" src="img/balet.png" alt="balet" >
                     <h4>Назва новини</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto eligendi nobis minus repreh
                         enderit fugiat obcaecati libero ab dolor est minima.</p>
-                    <div class="date">12.02.2015 <img src="img/eye.png" class="eye"> 112</div>
+                    <div class="date">12.02.2015
+                        <div class="views"><img src="img/eye.png"> 112</div>
+                    </div>
                 </article>
                 <article>
                     <img class="baletPhoto" src="img/balet.png">
                     <h4>Назва новини</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto eligendi nobis minus repreh
                         enderit fugiat obcaecati libero ab dolor est minima.</p>
-                    <div class="date">12.02.2015 <img src="img/eye.png" class="eye"> 112</div>
+                    <div class="date">12.02.2015
+                        <div class="views"><img src="img/eye.png"> 112</div>
+                    </div>
                 </article>
             </main>
 
@@ -86,15 +85,12 @@
                 </div>
             </aside>
         </div>
-        <div class="toTop">
-            <a href=""><img src="img/arrow.png" alt="totop"></a>
-        </div>
-    </div>
+
+            <a class="toTop" href=""><img src="img/arrow.png" alt="totop"></a>
 
         <footer class="red-line">
             <div class="bottomMenu">
-                <nav>
-                    <div class="bottomNav">
+                <nav class="bottomNav">
                         <a href="#"class="bottomNav__link">Головна</a>
                         <a href="#"class="bottomNav__link">Афіша</a>
                         <a href="#"class="bottomNav__link">Репертуар</a>
@@ -103,7 +99,6 @@
                         <a href="#"class="bottomNav__link">Персоналії</a>
                         <a href="#"class="bottomNav__link">Контакти</a>
                         <a href="#"class="bottomNav__link">Фестивалі</a>
-                    </div>
                 </nav>
 
                 <div class="social-services">
@@ -127,4 +122,3 @@
         </footer>
 </body>
 </html>
-
