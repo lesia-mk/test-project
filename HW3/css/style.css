@@ -186,6 +186,9 @@ article p{
     height: 12px;
     border-radius: 4px;
 }
+li{
+    list-style-type: none;
+}
 .toTop{
     width: 42px;
     height: 42px;
